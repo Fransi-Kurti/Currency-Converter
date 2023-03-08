@@ -15,7 +15,7 @@ body{
     box-sizing: border-box;
     border-radius: 10px;
     width: 90%;
-    max-width: 500px;
+    max-width: 400px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,.5);
 }
@@ -32,6 +32,9 @@ body{
     padding: 10px;
     font-size: 1.2rem;
     width: 100px;
+    background-color: rgb(234, 234, 234);
+    color: rgb(73, 73, 73);
+    outline: none;
     
 }
 
@@ -39,4 +42,6 @@ body{
     padding: 10px;
     font-size: 1.2rem;
     width: 100px;
+    background-color: rgb(84, 0, 0);
+    color: white;
 }
