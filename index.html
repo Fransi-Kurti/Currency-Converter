@@ -10,7 +10,7 @@
 <body>
     <div class="main-container">
         <h1 class="heading">Currency Converter</h1>
-        <div class="selector-first-container">
+        <div class="selector-container">
             <select id="first-currency">
                 <option value="AUD">AUD</option>
                 <option value="CAD">CAD</option>
@@ -20,9 +20,9 @@
                 <option value="ALL" selected>ALL</option>
                 <option value="JPY">JPY</option>
             </select>
-            <input type="number" class="input" id="first-input" value="1" min="0">
+            <input type="number" class="first-input" id="first-input" value="1" min="0">
         </div>
-        <div class="selector-second-container">
+        <div class="selector-container">
             <select id="second-currency">
                 <option value="AUD">AUD</option>
                 <option value="CAD">CAD</option>
@@ -32,7 +32,7 @@
                 <option value="ALL">ALL</option>
                 <option value="JPY">JPY</option>
             </select>
-            <input type="number" class="input" id="second-input" disabled>
+            <input type="number" class="second-input" id="second-input" disabled>
         </div>
         <p class="exchange-rate" id="exchange-rate">1 USD = 138.5802JPY</p>
     </div>

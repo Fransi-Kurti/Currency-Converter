@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to bottom, darkgray, grey, black);
+    font-family: sans-serif;
+}
+
+.main-container{
+    background-color: rgba(255,255,255,.3);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.5);
+}
+
+
+.selector-container select{
+   padding: 10px;
+   font-size: 1.2rem;
+   background-color: rgb(15, 15, 15);
+   color: lightgrey;
+   outline: none;
+}
+.first-input{
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100px;
+    
+}
+
+.second-input{
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100px;
+}
